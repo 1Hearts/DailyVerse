@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#f7f4ef">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="18dp">
+
+        <TextView
+            android:id="@+id/tvBack"
+            android:text="← 카테고리로"
+            android:textSize="12sp"
+            android:textColor="#a09890"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingTop="8dp"
+            android:paddingBottom="14dp"/>
+
+        <TextView
+            android:id="@+id/tvCatLabel"
+            android:textSize="10sp"
+            android:textColor="#8b6f47"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="14dp"/>
+
+        <!-- 말씀 카드 -->
+        <androidx.cardview.widget.CardView
+            android:id="@+id/verseCard"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="14dp"
+            app:cardCornerRadius="4dp"
+            app:cardElevation="6dp"
+            app:cardBackgroundColor="#ffffff">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <View
+                    android:id="@+id/cardTopBar"
+                    android:layout_width="match_parent"
+                    android:layout_height="5dp"
+                    android:background="#d4b896"/>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:padding="28dp">
+
+                    <TextView
+                        android:text="DAILY VERSE"
+                        android:textSize="10sp"
+                        android:textColor="#8b6f47"
+                        android:letterSpacing="0.3"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:paddingBottom="18dp"/>
+
+                    <TextView
+                        android:id="@+id/tvVerseText"
+                        android:textSize="18sp"
+                        android:textColor="#1a1612"
+                        android:lineSpacingMultiplier="1.9"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:paddingBottom="14dp"/>
+
+                    <TextView
+                        android:id="@+id/tvVerseRef"
+                        android:textSize="14sp"
+                        android:textColor="#8b6f47"
+                        android:textStyle="italic"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:paddingBottom="20dp"/>
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:background="#e8e2d9"
+                        android:layout_marginBottom="16dp"/>
+
+                    <TextView
+                        android:text="REFLECTION"
+                        android:textSize="10sp"
+                        android:textColor="#a09890"
+                        android:letterSpacing="0.3"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:paddingBottom="10dp"/>
+
+                    <TextView
+                        android:id="@+id/tvReflection"
+                        android:textSize="13sp"
+                        android:textColor="#6b6259"
+                        android:lineSpacingMultiplier="1.9"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"/>
+                </LinearLayout>
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+        <!-- 버튼 행 1 -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginBottom="8dp">
+
+            <Button
+                android:id="@+id/btnSave"
+                android:text="♡ 저장"
+                android:layout_width="0dp"
+                android:layout_height="48dp"
+                android:layout_weight="1"
+                android:layout_marginEnd="6dp"
+                android:backgroundTint="#ffffff"
+                android:textColor="#6b6259"
+                android:textSize="12sp"/>
+
+            <Button
+                android:id="@+id/btnDraw"
+                android:text="다시뽑기"
+                android:layout_width="0dp"
+                android:layout_height="48dp"
+                android:layout_weight="1"
+                android:backgroundTint="#ffffff"
+                android:textColor="#8b6f47"
+                android:textSize="12sp"/>
+        </LinearLayout>
+
+        <!-- 버튼 행 2 -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btnSaveImg"
+                android:text="사진저장"
+                android:layout_width="0dp"
+                android:layout_height="48dp"
+                android:layout_weight="1"
+                android:layout_marginEnd="6dp"
+                android:backgroundTint="#8b6f47"
+                android:textColor="#ffffff"
+                android:textSize="12sp"/>
+
+            <Button
+                android:id="@+id/btnShare"
+                android:text="공유"
+                android:layout_width="0dp"
+                android:layout_height="48dp"
+                android:layout_weight="1"
+                android:backgroundTint="#6b6259"
+                android:textColor="#ffffff"
+                android:textSize="12sp"/>
+        </LinearLayout>
+
+        <!-- 저장된 말씀 목록 -->
+        <LinearLayout
+            android:id="@+id/savedSection"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="24dp"
+            android:visibility="gone">
+
+            <TextView
+                android:text="저장된 말씀"
+                android:textSize="10sp"
+                android:textColor="#a09890"
+                android:letterSpacing="0.3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingBottom="10dp"/>
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/rvSaved"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:nestedScrollingEnabled="false"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+</ScrollView>

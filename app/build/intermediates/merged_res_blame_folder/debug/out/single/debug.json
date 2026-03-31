@@ -1,0 +1,22 @@
+[
+    {
+        "merged": "C:\\Users\\chanh\\.gradle\\daemon\\9.0-milestone-1\\com.example.dailyverse.app-merged_res-32:\\layout_item_saved.xml.flat",
+        "source": "C:\\Users\\chanh\\.gradle\\daemon\\9.0-milestone-1\\com.example.dailyverse.app-main-34:\\layout\\item_saved.xml"
+    },
+    {
+        "merged": "C:\\Users\\chanh\\.gradle\\daemon\\9.0-milestone-1\\com.example.dailyverse.app-merged_res-32:\\layout_activity_verse.xml.flat",
+        "source": "C:\\Users\\chanh\\.gradle\\daemon\\9.0-milestone-1\\com.example.dailyverse.app-main-34:\\layout\\activity_verse.xml"
+    },
+    {
+        "merged": "C:\\Users\\chanh\\.gradle\\daemon\\9.0-milestone-1\\com.example.dailyverse.app-merged_res-32:\\layout_item_category.xml.flat",
+        "source": "C:\\Users\\chanh\\.gradle\\daemon\\9.0-milestone-1\\com.example.dailyverse.app-main-34:\\layout\\item_category.xml"
+    },
+    {
+        "merged": "C:\\Users\\chanh\\.gradle\\daemon\\9.0-milestone-1\\com.example.dailyverse.app-merged_res-32:\\layout_activity_main.xml.flat",
+        "source": "C:\\Users\\chanh\\.gradle\\daemon\\9.0-milestone-1\\com.example.dailyverse.app-main-34:\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "com.example.dailyverse.app-merged_res-32:/layout_activity_main.xml.flat",
+        "source": "com.example.dailyverse.app-main-34:/layout/activity_main.xml"
+    }
+]

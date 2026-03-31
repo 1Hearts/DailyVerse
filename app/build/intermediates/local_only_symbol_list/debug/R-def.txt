@@ -1,0 +1,29 @@
+R_DEF: Internal format may change without notice
+local
+id btnDelete
+id btnDraw
+id btnSave
+id btnSaveImg
+id btnShare
+id cardTopBar
+id colorBar
+id rvCategories
+id rvSaved
+id savedPip
+id savedSection
+id tvBack
+id tvCatIcon
+id tvCatLabel
+id tvCatName
+id tvCatSub
+id tvDate
+id tvReflection
+id tvSavedRef
+id tvSavedText
+id tvVerseRef
+id tvVerseText
+id verseCard
+layout activity_main
+layout activity_verse
+layout item_category
+layout item_saved
