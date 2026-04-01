@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Users\chanh\Downloads\DailyVerse2\app\src\main\AndroidManifest.xml:2:1-22:12
-INJECTED from C:\Users\chanh\Downloads\DailyVerse2\app\src\main\AndroidManifest.xml:2:1-22:12
-INJECTED from C:\Users\chanh\Downloads\DailyVerse2\app\src\main\AndroidManifest.xml:2:1-22:12
-INJECTED from C:\Users\chanh\Downloads\DailyVerse2\app\src\main\AndroidManifest.xml:2:1-22:12
+ADDED from C:\Users\chanh\Downloads\DailyVerse2\app\src\main\AndroidManifest.xml:2:1-30:12
+INJECTED from C:\Users\chanh\Downloads\DailyVerse2\app\src\main\AndroidManifest.xml:2:1-30:12
+INJECTED from C:\Users\chanh\Downloads\DailyVerse2\app\src\main\AndroidManifest.xml:2:1-30:12
+INJECTED from C:\Users\chanh\Downloads\DailyVerse2\app\src\main\AndroidManifest.xml:2:1-30:12
 MERGED from [com.google.android.material:material:1.11.0] C:\Users\chanh\.gradle\caches\9.0-milestone-1\transforms\9e6c7bbba4c75168902348e8d2e84d85\transformed\material-1.11.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.appcompat:appcompat-resources:1.6.1] C:\Users\chanh\.gradle\caches\9.0-milestone-1\transforms\2c1c2ac8a694915710b294bc38bea226\transformed\jetified-appcompat-resources-1.6.1\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.constraintlayout:constraintlayout:2.0.1] C:\Users\chanh\.gradle\caches\9.0-milestone-1\transforms\32317ecbdf04f4258719b452b0283d0e\transformed\constraintlayout-2.0.1\AndroidManifest.xml:2:1-11:12
@@ -55,14 +55,14 @@ MERGED from [androidx.print:print:1.0.0] C:\Users\chanh\.gradle\caches\9.0-miles
 	xmlns:android
 		ADDED from C:\Users\chanh\Downloads\DailyVerse2\app\src\main\AndroidManifest.xml:2:11-69
 uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
-ADDED from C:\Users\chanh\Downloads\DailyVerse2\app\src\main\AndroidManifest.xml:4:5-5:37
+ADDED from C:\Users\chanh\Downloads\DailyVerse2\app\src\main\AndroidManifest.xml:4:5-6:38
 	android:maxSdkVersion
-		ADDED from C:\Users\chanh\Downloads\DailyVerse2\app\src\main\AndroidManifest.xml:5:9-35
+		ADDED from C:\Users\chanh\Downloads\DailyVerse2\app\src\main\AndroidManifest.xml:6:9-35
 	android:name
-		ADDED from C:\Users\chanh\Downloads\DailyVerse2\app\src\main\AndroidManifest.xml:4:22-78
+		ADDED from C:\Users\chanh\Downloads\DailyVerse2\app\src\main\AndroidManifest.xml:5:9-65
 application
-ADDED from C:\Users\chanh\Downloads\DailyVerse2\app\src\main\AndroidManifest.xml:7:5-21:15
-INJECTED from C:\Users\chanh\Downloads\DailyVerse2\app\src\main\AndroidManifest.xml:7:5-21:15
+ADDED from C:\Users\chanh\Downloads\DailyVerse2\app\src\main\AndroidManifest.xml:8:5-28:19
+INJECTED from C:\Users\chanh\Downloads\DailyVerse2\app\src\main\AndroidManifest.xml:8:5-28:19
 MERGED from [com.google.android.material:material:1.11.0] C:\Users\chanh\.gradle\caches\9.0-milestone-1\transforms\9e6c7bbba4c75168902348e8d2e84d85\transformed\material-1.11.0\AndroidManifest.xml:22:5-20
 MERGED from [com.google.android.material:material:1.11.0] C:\Users\chanh\.gradle\caches\9.0-milestone-1\transforms\9e6c7bbba4c75168902348e8d2e84d85\transformed\material-1.11.0\AndroidManifest.xml:22:5-20
 MERGED from [androidx.constraintlayout:constraintlayout:2.0.1] C:\Users\chanh\.gradle\caches\9.0-milestone-1\transforms\32317ecbdf04f4258719b452b0283d0e\transformed\constraintlayout-2.0.1\AndroidManifest.xml:9:5-20
@@ -84,35 +84,39 @@ MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\chanh\.gradle\cach
 	android:appComponentFactory
 		ADDED from [androidx.core:core:1.12.0] C:\Users\chanh\.gradle\caches\9.0-milestone-1\transforms\32b769c04307e8cc6aa5359cb2a44943\transformed\core-1.12.0\AndroidManifest.xml:28:18-86
 	android:supportsRtl
-		ADDED from C:\Users\chanh\Downloads\DailyVerse2\app\src\main\AndroidManifest.xml:10:5-31
+		ADDED from C:\Users\chanh\Downloads\DailyVerse2\app\src\main\AndroidManifest.xml:13:9-35
 	android:label
-		ADDED from C:\Users\chanh\Downloads\DailyVerse2\app\src\main\AndroidManifest.xml:9:5-27
+		ADDED from C:\Users\chanh\Downloads\DailyVerse2\app\src\main\AndroidManifest.xml:12:9-31
+	android:roundIcon
+		ADDED from C:\Users\chanh\Downloads\DailyVerse2\app\src\main\AndroidManifest.xml:11:9-54
+	android:icon
+		ADDED from C:\Users\chanh\Downloads\DailyVerse2\app\src\main\AndroidManifest.xml:10:9-43
 	android:allowBackup
-		ADDED from C:\Users\chanh\Downloads\DailyVerse2\app\src\main\AndroidManifest.xml:8:9-35
+		ADDED from C:\Users\chanh\Downloads\DailyVerse2\app\src\main\AndroidManifest.xml:9:9-35
 	android:theme
-		ADDED from C:\Users\chanh\Downloads\DailyVerse2\app\src\main\AndroidManifest.xml:11:5-61
+		ADDED from C:\Users\chanh\Downloads\DailyVerse2\app\src\main\AndroidManifest.xml:14:9-65
 activity#com.example.dailyverse.MainActivity
-ADDED from C:\Users\chanh\Downloads\DailyVerse2\app\src\main\AndroidManifest.xml:12:5-19:16
+ADDED from C:\Users\chanh\Downloads\DailyVerse2\app\src\main\AndroidManifest.xml:16:9-23:20
 	android:exported
-		ADDED from C:\Users\chanh\Downloads\DailyVerse2\app\src\main\AndroidManifest.xml:14:9-32
+		ADDED from C:\Users\chanh\Downloads\DailyVerse2\app\src\main\AndroidManifest.xml:18:13-36
 	android:name
-		ADDED from C:\Users\chanh\Downloads\DailyVerse2\app\src\main\AndroidManifest.xml:13:9-37
+		ADDED from C:\Users\chanh\Downloads\DailyVerse2\app\src\main\AndroidManifest.xml:17:13-41
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from C:\Users\chanh\Downloads\DailyVerse2\app\src\main\AndroidManifest.xml:15:9-18:25
+ADDED from C:\Users\chanh\Downloads\DailyVerse2\app\src\main\AndroidManifest.xml:19:13-22:29
 action#android.intent.action.MAIN
-ADDED from C:\Users\chanh\Downloads\DailyVerse2\app\src\main\AndroidManifest.xml:16:13-64
+ADDED from C:\Users\chanh\Downloads\DailyVerse2\app\src\main\AndroidManifest.xml:20:17-69
 	android:name
-		ADDED from C:\Users\chanh\Downloads\DailyVerse2\app\src\main\AndroidManifest.xml:16:21-62
+		ADDED from C:\Users\chanh\Downloads\DailyVerse2\app\src\main\AndroidManifest.xml:20:25-66
 category#android.intent.category.LAUNCHER
-ADDED from C:\Users\chanh\Downloads\DailyVerse2\app\src\main\AndroidManifest.xml:17:13-72
+ADDED from C:\Users\chanh\Downloads\DailyVerse2\app\src\main\AndroidManifest.xml:21:17-77
 	android:name
-		ADDED from C:\Users\chanh\Downloads\DailyVerse2\app\src\main\AndroidManifest.xml:17:23-70
+		ADDED from C:\Users\chanh\Downloads\DailyVerse2\app\src\main\AndroidManifest.xml:21:27-74
 activity#com.example.dailyverse.VerseActivity
-ADDED from C:\Users\chanh\Downloads\DailyVerse2\app\src\main\AndroidManifest.xml:20:5-71
+ADDED from C:\Users\chanh\Downloads\DailyVerse2\app\src\main\AndroidManifest.xml:25:9-27:40
 	android:exported
-		ADDED from C:\Users\chanh\Downloads\DailyVerse2\app\src\main\AndroidManifest.xml:20:45-69
+		ADDED from C:\Users\chanh\Downloads\DailyVerse2\app\src\main\AndroidManifest.xml:27:13-37
 	android:name
-		ADDED from C:\Users\chanh\Downloads\DailyVerse2\app\src\main\AndroidManifest.xml:20:15-44
+		ADDED from C:\Users\chanh\Downloads\DailyVerse2\app\src\main\AndroidManifest.xml:26:13-42
 uses-sdk
 INJECTED from C:\Users\chanh\Downloads\DailyVerse2\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from C:\Users\chanh\Downloads\DailyVerse2\app\src\main\AndroidManifest.xml
