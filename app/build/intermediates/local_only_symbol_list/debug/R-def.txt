@@ -1,5 +1,6 @@
 R_DEF: Internal format may change without notice
 local
+color ic_launcher_background
 id btnDelete
 id btnDraw
 id btnSave
@@ -9,6 +10,7 @@ id cardTopBar
 id colorBar
 id rvCategories
 id rvSaved
+id rvSavedMain
 id savedPip
 id savedSection
 id tvBack
@@ -27,3 +29,6 @@ layout activity_main
 layout activity_verse
 layout item_category
 layout item_saved
+mipmap ic_launcher
+mipmap ic_launcher_foreground
+mipmap ic_launcher_round

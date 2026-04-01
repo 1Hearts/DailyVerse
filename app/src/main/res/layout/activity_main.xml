@@ -3,8 +3,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    android:background="#f7f4ef"
-    android:padding="16dp">
+    android:background="#f7f4ef">
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -15,7 +14,7 @@
         android:paddingBottom="8dp">
 
         <TextView
-            android:text="&#10022;"
+            android:text="✦"
             android:textSize="22sp"
             android:textColor="#8b6f47"
             android:gravity="center"
@@ -24,7 +23,7 @@
 
         <TextView
             android:text="오늘의 말씀"
-            android:textSize="18sp"
+            android:textSize="11sp"
             android:textColor="#a09890"
             android:gravity="center"
             android:layout_width="match_parent"
@@ -33,7 +32,7 @@
 
         <TextView
             android:id="@+id/tvDate"
-            android:textSize="16sp"
+            android:textSize="10sp"
             android:textColor="#a09890"
             android:gravity="center"
             android:layout_width="match_parent"
@@ -42,19 +41,74 @@
             android:layout_marginBottom="16dp"/>
     </LinearLayout>
 
-    <TextView
-        android:text="오늘 마음에 필요한 \n 말씀의 주제를 선택하세요"
-        android:textSize="26sp"
-        android:textColor="#6b6259"
-        android:gravity="center"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:paddingBottom="16dp"/>
-
-    <androidx.recyclerview.widget.RecyclerView
-        android:id="@+id/rvCategories"
+    <ScrollView
         android:layout_width="match_parent"
         android:layout_height="0dp"
-        android:layout_weight="1"/>
+        android:layout_weight="1">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="16dp">
+
+            <TextView
+                android:text="오늘 마음에 필요한 말씀의 주제를 선택하세요"
+                android:textSize="14sp"
+                android:textColor="#6b6259"
+                android:gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingBottom="16dp"/>
+
+            <!-- 카테고리 그리드 -->
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/rvCategories"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:nestedScrollingEnabled="false"/>
+
+            <!-- 저장된 말씀 섹션 -->
+            <LinearLayout
+                android:id="@+id/savedSection"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginTop="28dp"
+                android:visibility="gone">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:gravity="center_vertical"
+                    android:paddingBottom="12dp">
+
+                    <TextView
+                        android:text="저장된 말씀"
+                        android:textSize="10sp"
+                        android:textColor="#a09890"
+                        android:letterSpacing="0.3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"/>
+
+                    <View
+                        android:layout_width="0dp"
+                        android:layout_height="1dp"
+                        android:layout_weight="1"
+                        android:background="#e8e2d9"
+                        android:layout_marginStart="10dp"/>
+                </LinearLayout>
+
+                <androidx.recyclerview.widget.RecyclerView
+                    android:id="@+id/rvSavedMain"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:nestedScrollingEnabled="false"/>
+
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
 
 </LinearLayout>

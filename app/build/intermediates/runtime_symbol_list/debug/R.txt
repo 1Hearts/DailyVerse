@@ -1328,6 +1328,7 @@ int color foreground_material_dark 0x7f05005b
 int color foreground_material_light 0x7f05005c
 int color highlighted_text_material_dark 0x7f05005d
 int color highlighted_text_material_light 0x7f05005e
+int color ic_launcher_background 0x7f050302
 int color m3_appbar_overlay_color 0x7f05005f
 int color m3_assist_chip_icon_tint_color 0x7f050060
 int color m3_assist_chip_stroke_color 0x7f050061
@@ -3328,6 +3329,7 @@ int id rounded 0x7f080152
 int id row_index_key 0x7f080153
 int id rvCategories 0x7f080154
 int id rvSaved 0x7f080155
+int id rvSavedMain 0x7f0801da
 int id save_non_transition_alpha 0x7f080156
 int id save_overlay_view 0x7f080157
 int id savedPip 0x7f080158
@@ -3657,6 +3659,9 @@ int layout select_dialog_item_material 0x7f0b006b
 int layout select_dialog_multichoice_material 0x7f0b006c
 int layout select_dialog_singlechoice_material 0x7f0b006d
 int layout support_simple_spinner_dropdown_item 0x7f0b006e
+int mipmap ic_launcher 0x7f110000
+int mipmap ic_launcher_foreground 0x7f110001
+int mipmap ic_launcher_round 0x7f110002
 int plurals mtrl_badge_content_description 0x7f0d0000
 int string abc_action_bar_home_description 0x7f0e0000
 int string abc_action_bar_up_description 0x7f0e0001
